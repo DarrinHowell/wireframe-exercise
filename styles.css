@@ -1,0 +1,60 @@
+.content{
+    width: 1500px;
+    margin: 30px;
+    vertical-align: middle;
+    align-content: center;
+}
+
+
+#header-bar{
+    display: block;
+    border: 3px solid line;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    width: 100%;
+    vertical-align: middle;
+    height: 100px;
+
+}
+
+logo, nav {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#header-bar:first-child{
+    vertical-align: middle;
+}
+
+nav {
+    display: inline-block;
+
+}
+
+img {
+    margin: 15px 15px;
+}
+
+
+#scroll-box {
+    overflow: auto; 
+    width:300px; 
+    height:200px;
+}
+
+#hero-image {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.deck{
+    width: 100%
+}
+
+button{
+    display: inline-block;
+}
