@@ -44,6 +44,7 @@ div {
     display: inline-block;
     height: 70px;
     line-height: 70px;
+    font-size: 1em;
 }
 
 .nav-div{
@@ -52,6 +53,7 @@ div {
     background: rgb(37, 35, 35);
     color: rgb(243, 237, 237);
     display: inline-block;
+    font-size: 1em;
 }
 
 .hero-image{
@@ -62,6 +64,7 @@ div {
     display: inline-block;
     height: 450px;
     line-height: 450px;
+    font-size: 5em;
 
 }
 
@@ -73,6 +76,7 @@ div {
     display: inline-block;
     height: 375px;
     line-height: 375px;
+    font-size: 2em;
 }
 
 #larger {
@@ -88,9 +92,14 @@ div {
     float: right;
     overflow: auto;
     background: white;
-    height: 100px;
-    line-height: 100px;
+    line-height: 20px;
+    text-align: left;
+    size: 20px;
     color:  rgb(37, 35, 35);
+}
+
+.lorum{
+    font-size: 0.5em;
 }
 
 .deck{
@@ -118,4 +127,9 @@ footer div {
     height: 200px;
     background:rgb(37, 35, 35);
     margin: 0px auto;
+}
+
+button:hover {
+    background: rgb(108, 198, 250)
+    
 }
