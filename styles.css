@@ -19,7 +19,7 @@
 
 }
 
-logo, nav {
+.logo, nav {
     margin-left: auto;
     margin-right: auto;
 }
@@ -29,8 +29,16 @@ nav {
 
 }
 
-img {
+.logo, .nav-div, .hero-img, .supp-img, 
+{
     margin: 15px 15px;
+}
+
+.logo {
+    width: 200px;
+    height: 70px;
+    background: rgb(37, 35, 35);
+    color: rgb(243, 237, 237);
 }
 
 .deck{
@@ -41,11 +49,6 @@ img {
 
 button{
     display: inline-block;
-}
-
-#bottom-img{
-    margin: 15px 15px;
-    float: left;
 }
 
 #scroll-box{
